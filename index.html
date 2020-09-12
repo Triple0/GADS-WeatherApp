@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Weather App">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GADS2020 WeatherApp</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="manifest" href="/manifest.json" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="images/icons/weatherapp72.png" />
+    <link rel="apple-touch-icon" href="images/icons/weatherapp96.png" />
+    <link rel="apple-touch-icon" href="images/icons/weatherapp128.png" />
+    <link rel="apple-touch-icon" href="images/icons/weatherapp144.png" />
+    <link rel="apple-touch-icon" href="images/icons/weatherapp152.png" />
+    <link rel="apple-touch-icon" href="images/icons/weatherapp192.png" />
+    <link rel="apple-touch-icon" href="images/icons/weatherapp384.png" />
+    <link rel="apple-touch-icon" href="images/icons/weatherapp512.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#db4938" />
+    <meta name="theme-color" content="#db4938" />
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <input type="text" name="search-location" placeholder="Enter a city...">
+        </header>
+        <main>
+            <section class="location">
+                <div class="city"></div>
+                <div class="date"></div>
+            </section>
+            <div class="current">
+                <div class="temp"><span></span></div>
+                <div class="weather"></div>
+                <div class="hi-low"></div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
